@@ -1,0 +1,15 @@
+{
+  "name": "owner/x-server-homework",
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/database": "^8.83",
+    "vlucas/phpdotenv": "^5.5",
+    "illuminate/events": "^8.83",
+    "bramus/router": "^1.6",
+    "nesbot/carbon": "^2.71"
+  }
+}

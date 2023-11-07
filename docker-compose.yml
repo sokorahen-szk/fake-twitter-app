@@ -16,7 +16,7 @@ services:
     depends_on:
       - mysql
     networks:
-      - x-server-homework
+      - fake-twitter-app
   mysql:
     container_name: mysql
     build:
@@ -30,8 +30,8 @@ services:
       MYSQL_PASSWORD: password
       TZ: "Asia/Tokyo"
     networks:
-      - x-server-homework
+      - fake-twitter-app
     ports:
       - 3306:3306
 networks:
-  x-server-homework:
+  fake-twitter-app:

@@ -1,5 +1,5 @@
 {
-  "name": "owner/x-server-homework",
+  "name": "owner/fake-twitter-app",
   "autoload": {
     "psr-4": {
       "Src\\": "src/"

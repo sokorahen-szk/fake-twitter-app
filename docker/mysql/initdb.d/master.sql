@@ -1,8 +1,8 @@
 SET CHARACTER_SET_CLIENT = utf8;
 SET CHARACTER_SET_CONNECTION = utf8;
 
-CREATE DATABASE IF NOT EXISTS `test-x-server-homework-db`;
-USE `test-x-server-homework-db`;
+CREATE DATABASE IF NOT EXISTS `test-fake-twitter-app-db`;
+USE `test-fake-twitter-app-db`;
 
 -- ユーザテーブル
 CREATE TABLE IF NOT EXISTS users (
